@@ -182,7 +182,6 @@ main {
   left: 1340px;
   top: 280px;
 }
-
 .Co-working {
   position: absolute;
   width: 474.31px;
@@ -197,4 +196,11 @@ main {
   color: #000000;
   opacity: 0.1;
   transform: rotate(-90deg);
+}
+.ten {
+  position: absolute;
+  width: 25px;
+  height: 40px;
+  left: 531px;
+  top: 823px;
 }

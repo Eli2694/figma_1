@@ -15,13 +15,14 @@ body {
   margin: 0 auto;
 }
 .head-container {
+  position: absolute;
+  left: 340px;
+  top: 10px;
+  gap: 200px;
   display: flex;
   max-width: 1207px;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 250px;
 }
 .left-top-menu {
   display: flex;
@@ -56,8 +57,9 @@ body {
 }
 main {
   max-width: 1140px;
-  margin: 0 auto;
-  margin-bottom: 90px;
+  position: absolute;
+  top: 340px;
+  left: 380px;
 }
 .title {
   width: 474.31px;
@@ -137,7 +139,9 @@ main {
 .footer-image-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 89px;
+  position: absolute;
+  top: 910px;
+  left: 625px;
 }
 .brand-images {
   display: flex;
@@ -149,19 +153,19 @@ main {
 .Rectangle-10 {
   position: absolute;
   left: 850.89px;
-  top: 160.08px;
+  top: 150.08px;
   z-index: -1;
 }
 .mask {
   position: absolute;
   left: 860.89px;
-  top: 183.08px;
+  top: 173.08px;
   z-index: -1;
 }
 .ellipse1 {
   position: absolute;
   left: 1120.89px;
-  top: 113.08px;
+  top: 103.08px;
   z-index: -1;
   width: 360.89px;
   height: 420.89px;
@@ -169,10 +173,16 @@ main {
 .ellipse2 {
   position: absolute;
   left: 1260.19px;
-  top: 444.36px;
+  top: 434.36px;
   width: 280px;
   height: 280px;
 }
+.ellipse3 {
+  position: absolute;
+  left: 1340px;
+  top: 280px;
+}
+
 .Co-working {
   position: absolute;
   width: 474.31px;
